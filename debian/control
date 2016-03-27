@@ -8,9 +8,11 @@ Vcs-Git: https://github.com/knowledgejunkie/packaging-deps.git
 
 Package: knowledgejunkie-packaging-deps
 Architecture: all
-Depends: build-essential, pkg-perl-tools, packaging-dev, cowbuilder, dput, myrepos, equivs,
-    debian-policy, developers-reference, maint-guide,
-    debian-reference-en, debian-faq, debian-handbook, debian-kernel-handbook, debian-history
+Depends: build-essential, pkg-perl-tools, packaging-dev, cowbuilder,
+         sbuild, dput, myrepos, equivs,
+         debian-policy, developers-reference, maint-guide,
+         debian-reference-en, debian-faq, debian-handbook,
+         debian-kernel-handbook, debian-history
 Description: Metapackage to install Debian packaging tools/docs
  A metapackage to install tools and documentation used for packaging software
  on Debian. Also installs packages to aid building packages for the Debian
