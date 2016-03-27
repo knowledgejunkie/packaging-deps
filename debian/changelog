@@ -1,4 +1,10 @@
-knowledgejunkie-packaging-deps (0.1) UNRELEASED; urgency=medium
+knowledgejunkie-packaging-deps (0.2) unstable; urgency=medium
+
+  + Add sbuild
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 27 Mar 2016 21:55:03 +0000
+
+knowledgejunkie-packaging-deps (0.1) unstable; urgency=medium
 
   * Initial release.
 
