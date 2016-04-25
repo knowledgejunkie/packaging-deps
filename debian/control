@@ -9,7 +9,7 @@ Vcs-Git: https://github.com/knowledgejunkie/packaging-deps.git
 Package: knowledgejunkie-packaging-deps
 Architecture: all
 Depends: build-essential, pkg-perl-tools, packaging-dev, cowbuilder,
-         sbuild, dput, myrepos, equivs,
+         sbuild, dput, myrepos, equivs, tree,
          debian-policy, developers-reference, maint-guide,
          debian-reference-en, debian-faq, debian-handbook,
          debian-kernel-handbook, debian-history
