@@ -1,3 +1,9 @@
+knowledgejunkie-packaging-deps (0.4) unstable; urgency=medium
+
+  + Add duck, moreutils and mercurial
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Fri, 27 May 2016 03:20:03 +0100
+
 knowledgejunkie-packaging-deps (0.3) unstable; urgency=medium
 
   + Add tree
