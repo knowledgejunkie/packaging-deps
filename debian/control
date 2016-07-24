@@ -10,7 +10,7 @@ Package: knowledgejunkie-packaging-deps
 Architecture: all
 Depends: build-essential, pkg-perl-tools, packaging-dev, cowbuilder,
          sbuild, dput, myrepos, equivs, tree, moreutils,
-         mercurial, duck,
+         mercurial, duck, pkg-perl-autopkgtest,
          debian-policy, developers-reference, maint-guide,
          debian-reference-en, debian-faq, debian-handbook,
          debian-kernel-handbook, debian-history
