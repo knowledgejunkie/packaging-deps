@@ -1,3 +1,9 @@
+knowledgejunkie-packaging-deps (0.6-1) unstable; urgency=medium
+
+  * Add pkg-components
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 26 Jul 2016 14:51:42 +0100
+
 knowledgejunkie-packaging-deps (0.5-1) unstable; urgency=medium
 
   * Add pkg-perl-autotest
