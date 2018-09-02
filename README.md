@@ -8,47 +8,43 @@ regular Debian packaging and packaging for the [Debian Perl][debian-perl] team.
 Packages installed with this metapackage include:
 
 - build-essential
-- pkg-perl-tools
-- packaging-dev
 - cowbuilder
-- dput
-- myrepos
-- equivs
-
-- debian-policy
-- developers-reference
-- maint-guide
-- debian-reference-en
 - debian-faq
 - debian-handbook
-- debian-kernel-handbook
 - debian-history
+- debian-kernel-handbook
+- debian-policy
+- debian-reference-en
+- developers-reference
+- dput
+- equivs
+- maint-guide
+- myrepos
+- packaging-dev
+- pkg-perl-tools
 
 
 ## Building the metapackage
 
-A simple way to build the binary package is to change to the checkout directory and run:
+Build the binary package using git-buildpackge:
 
-    $ debuild -i -I -uc -us -b
+    $ gbp buildpackage
 
-This will generate the binary .deb file in the checkout's parent directory.
-
-To clean the build directory afterwards, run:
-
-    $ debuild clean
+This will generate the binary .deb in gbp's configured output directory.
 
 
 ## Installing the metapackage
 
-We can intall the local package using dpkg, and then install the missing dependencies using apt-get:
+We can install the package using gdebi, which will automatically install
+any missing dependencies
 
-    # dpkg --install /path/to/knowledgejunkie-packaging-deps_0.x_all.deb
-    # apt-get -f install
+    # gdebi knowledgejunkie-packaging-deps-<version>.deb
 
 
 ## License
 
-GPL-2+
+Copyright: 2016-18, Nick Morrott <knowledgejunkie@gmail.com>
+License: GPL-2+
 
 
 ## Thanks

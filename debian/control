@@ -1,20 +1,59 @@
 Source: knowledgejunkie-packaging-deps
 Section: metapackages
 Priority: optional
-Standards-Version: 3.9.8
+Standards-Version: 4.2.1
 Maintainer: Nick Morrott <knowledgejunkie@gmail.com>
 Vcs-Browser: https://github.com/knowledgejunkie/packaging-deps
 Vcs-Git: https://github.com/knowledgejunkie/packaging-deps.git
+Build-Depends: debhelper (>= 11)
 
 Package: knowledgejunkie-packaging-deps
 Architecture: all
-Depends: build-essential, pkg-perl-tools, packaging-dev, cowbuilder,
-         sbuild, dput, myrepos, equivs, tree, moreutils,
-         mercurial, duck, pkg-perl-autopkgtest, pkg-components,
-         debian-policy, developers-reference, maint-guide,
-         debian-reference-en, debian-faq, debian-handbook,
-         debian-kernel-handbook, debian-history
-Description: Metapackage to install Debian packaging tools/docs
+Depends:
+ ${misc:Depends},
+ build-essential,
+ cme,
+ cowbuilder,
+ debian-faq,
+ debian-handbook,
+ debian-history,
+ debian-kernel-handbook,
+ debian-policy,
+ debian-reference-en,
+ debmake,
+ developers-reference,
+ dh-python,
+ diffoscope,
+ dput,
+ duck,
+ equivs,
+ faketime,
+ help2man,
+ inoticoming,
+ maint-guide,
+ mercurial,
+ moreutils,
+ myrepos,
+ packaging-dev,
+ pkg-components,
+ pkg-perl-autopkgtest,
+ pkg-perl-tools,
+ pyflakes,
+ pyflakes3,
+ python3-all-dev,
+ python3-distutils,
+ python3-nose,
+ python3-pytest,
+ python3-setuptools,
+ python-all-dev,
+ python-nose,
+ python-pytest,
+ python-setuptools,
+ reprepro,
+ reprotest,
+ sbuild,
+ tree,
+Description: metapackage to install Debian packaging tools/docs
  A metapackage to install tools and documentation used for packaging software
  on Debian. Also installs packages to aid building packages for the Debian
- Perl team.
+ Perl and Python teams.
