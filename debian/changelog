@@ -1,3 +1,9 @@
+knowledgejunkie-packaging-deps (0.7) unstable; urgency=medium
+
+  * Improved Debianisation and gbp integration
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sun, 02 Sep 2018 03:57:18 +0100
+
 knowledgejunkie-packaging-deps (0.6) unstable; urgency=medium
 
   * Add pkg-components
