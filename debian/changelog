@@ -1,3 +1,16 @@
+knowledgejunkie-packaging-deps (0.8) unstable; urgency=medium
+
+  * Declare compliance with Debian Policy 4.3.0
+  * d/copyright: bump copyright years
+  * d/control: add Python documentation/venv/pip dependencies
+  * d/control: reformat dependencies (no changes)
+  * d/control: update long description
+  * Refresh apt pinning files for packaging/pkg-go/pkg-perl/pkg-python
+  * Install apt preferences via package.install
+  * Add lintian override for apt preferences installation
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Thu, 31 Jan 2019 16:14:05 +0000
+
 knowledgejunkie-packaging-deps (0.7) unstable; urgency=medium
 
   * Improved Debianisation and gbp integration
