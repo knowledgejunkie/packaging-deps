@@ -10,7 +10,6 @@ Build-Depends: debhelper (>= 11)
 Package: knowledgejunkie-packaging-deps
 Architecture: all
 Depends:
- ${misc:Depends},
  build-essential,
  cme,
  cowbuilder,
@@ -64,6 +63,7 @@ Depends:
  sbuild,
  tree,
  wkhtmltopdf,
+ ${misc:Depends},
 Description: metapackage to install Debian packaging tools/docs
  A metapackage to install tools and documentation used for packaging software
  on Debian. Also installs packages to aid building packages for the Debian
