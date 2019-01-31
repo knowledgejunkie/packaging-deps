@@ -66,5 +66,9 @@ Depends:
  ${misc:Depends},
 Description: metapackage to install Debian packaging tools/docs
  A metapackage to install tools and documentation used for packaging software
- on Debian. Also installs packages to aid building packages for the Debian
- Perl and Python teams.
+ on Debian. Installs language-specific packages (where available) to aid
+ building packages for the following Debian teams:
+ .
+  - Debian Go
+  - Debian Perl
+  - Debian Python
