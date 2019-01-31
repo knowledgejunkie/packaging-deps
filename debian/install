@@ -1,0 +1,4 @@
+etc/apt/preferences.d/20-debian-packaging   etc/apt/preferences.d/
+etc/apt/preferences.d/20-pkg-go             etc/apt/preferences.d/
+etc/apt/preferences.d/20-pkg-perl           etc/apt/preferences.d/
+etc/apt/preferences.d/20-pkg-python         etc/apt/preferences.d/
