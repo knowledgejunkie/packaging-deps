@@ -29,12 +29,12 @@ Pin: release a=unstable
 Pin-Priority: 800
 
 Explanation: Pull dedicated versioned Python3.6 interpreter-related packages from unstable
-Package: python3.6 python3.6-dev libpython3.6 libpython3.6-dev python3.6-minimal libpython3.6-minimal libpython3.6-stdlib
+Package: python3.6 python3.6-dev libpython3.6 libpython3.6-dev python3.6-minimal libpython3.6-minimal libpython3.6-stdlib python3.6-venv
 Pin: release a=unstable
 Pin-Priority: 800
 
 Explanation: Pull dedicated versioned Python3.7 interpreter-related packages from unstable
-Package: python3.7 python3.7-dev libpython3.7 libpython3.7-dev python3.7-minimal libpython3.7-minimal libpython3.7-stdlib
+Package: python3.7 python3.7-dev libpython3.7 libpython3.7-dev python3.7-minimal libpython3.7-minimal libpython3.7-stdlib python3.7-venv
 Pin: release a=unstable
 Pin-Priority: 800
 
