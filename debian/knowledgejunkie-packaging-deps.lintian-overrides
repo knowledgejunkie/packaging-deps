@@ -1,3 +1,4 @@
 # We deliberately install apt preferences, as this package is intended
 # to be solely used by the author
-knowledgejunkie-packaging-deps: package-installs-apt-preferences
+package-installs-apt-preferences
+package-installs-apt-sources
