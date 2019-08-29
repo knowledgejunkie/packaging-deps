@@ -1,3 +1,17 @@
+knowledgejunkie-packaging-deps (0.9) unstable; urgency=medium
+
+  * apt: add versioned pins for python3-venv
+  * apt: correct typo in pkg-perl-autopkgtest name
+  * apt: add pins for build-essential gcc/g++ deps
+  * apt: refresh general packaging pinning post-buster
+  * apt: add apt config for local build directory
+  * pbuilder: add build hooks
+  * Refresh lintian overrides
+  * Bump debhelper compatibility version to 12
+  * Declare compliance with Debian Policy 4.4.0
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Thu, 29 Aug 2019 13:55:18 +0100
+
 knowledgejunkie-packaging-deps (0.8) unstable; urgency=medium
 
   * Declare compliance with Debian Policy 4.3.0
