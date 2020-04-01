@@ -6,6 +6,7 @@ Maintainer: Nick Morrott <knowledgejunkie@gmail.com>
 Vcs-Browser: https://github.com/knowledgejunkie/packaging-deps
 Vcs-Git: https://github.com/knowledgejunkie/packaging-deps.git
 Build-Depends: debhelper-compat (= 12)
+Rules-Requires-Root: no
 
 Package: knowledgejunkie-packaging-deps
 Architecture: all
