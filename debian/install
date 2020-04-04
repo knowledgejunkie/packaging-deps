@@ -1,1 +1,2 @@
 usr/lib/pbuilder/hooks/*                    usr/lib/pbuilder/hooks/
+usr/lib/pbuilder/hooks-disabled/*           usr/lib/pbuilder/hooks-disabled/

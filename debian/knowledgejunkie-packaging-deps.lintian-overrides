@@ -2,3 +2,5 @@
 # to be solely used by the author
 package-installs-apt-preferences
 package-installs-apt-sources
+# pbuilder uses /usr/lib instead of /usr/libexec, so we will to
+executable-in-usr-lib
