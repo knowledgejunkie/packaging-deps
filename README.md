@@ -26,7 +26,7 @@ Packages installed with this metapackage include:
 
 ## Building the metapackage
 
-Build the binary package using git-buildpackge:
+Build the binary package using git-buildpackage:
 
     $ gbp buildpackage
 
