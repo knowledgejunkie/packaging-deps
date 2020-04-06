@@ -1,3 +1,26 @@
+knowledgejunkie-packaging-deps (0.10) unstable; urgency=medium
+
+  * d/control:
+    - Declare compliance with Debian Policy 4.5.0
+    - Add Rules-Requires-Root field
+    - Migrate to my Debian email address
+    - Refresh dependencies post-Buster release
+    - Refresh VCS links
+    - Refresh dependencies
+  * d/copyright:
+    - Refresh years of copyright and email
+  * d/rules:
+    - Remove cruft
+  * apt:
+    - Migrate release/package pins into separate package
+  * pbuilder:
+    - Include disabled hooks
+  * README:
+    - Refresh years of copyright and email
+    - Fix typo
+
+ -- Nick Morrott <nickm@debian.org>  Mon, 06 Apr 2020 16:41:34 +0100
+
 knowledgejunkie-packaging-deps (0.9) unstable; urgency=medium
 
   * apt: add versioned pins for python3-venv
